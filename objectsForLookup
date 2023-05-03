@@ -1,0 +1,17 @@
+function phoneticLookup(val) {
+  var result = "";
+  var lookup = {
+    Alpha: "Adams",
+    Bravo: "Bonston",
+    charlie: "chicago",
+    delta: "denver",
+    echo: "easy",
+    foxtroot: "frank",
+  };
+  result = lookup[val];
+  return result;
+}
+console.log(phoneticLookup("delta"));
+console.log(phoneticLookup("charlie"));
+console.log(phoneticLookup("Alpha"));
+console.log(phoneticLookup("delta"));
